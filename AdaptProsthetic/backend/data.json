@@ -1,0 +1,149 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "age": 45,
+      "status": "Active Sync",
+      "battery": 84,
+      "lastUpdate": "Just now"
+    },
+    {
+      "id": "2",
+      "name": "Sarah Connor",
+      "age": 32,
+      "status": "Critical Power",
+      "battery": 12,
+      "lastUpdate": "10 min ago"
+    },
+    {
+      "id": "3",
+      "name": "Robert Vance",
+      "age": 58,
+      "status": "Misalignment",
+      "battery": 65,
+      "lastUpdate": "1 hour ago"
+    },
+    {
+      "id": "4",
+      "name": "Mia Wong",
+      "age": 29,
+      "status": "Active Sync",
+      "battery": 92,
+      "lastUpdate": "2 mins ago"
+    }
+  ],
+  "alerts": [
+    {
+      "patientId": "1",
+      "patient": "John Doe",
+      "type": "Manual UI Pain Override",
+      "severity": "high",
+      "id": "a1772864745048",
+      "time": "2026-03-07T06:25:45.048Z"
+    },
+    {
+      "patientId": "1",
+      "patient": "John Doe",
+      "type": "Pain Report (11/10): knee",
+      "severity": "high",
+      "id": "a1772858570625",
+      "time": "2026-03-07T04:42:50.625Z"
+    },
+    {
+      "patientId": "1",
+      "patient": "John Doe",
+      "type": "Pain Report (4/10): knee",
+      "severity": "high",
+      "id": "a1772858403792",
+      "time": "2026-03-07T04:40:03.792Z"
+    },
+    {
+      "patientId": "1",
+      "patient": "John Doe",
+      "type": "Pain Report (8/10): stump",
+      "severity": "high",
+      "id": "a1772858371027",
+      "time": "2026-03-07T04:39:31.027Z"
+    },
+    {
+      "patientId": "1",
+      "patient": "John Doe",
+      "type": "Pain Report (8/10): residual limb stump",
+      "severity": "high",
+      "id": "a1772858163911",
+      "time": "2026-03-07T04:36:03.911Z"
+    },
+    {
+      "id": "a1",
+      "patientId": "2",
+      "patient": "Sarah Connor",
+      "type": "Battery Critical",
+      "time": "2026-03-01T05:16:38.550Z",
+      "severity": "high"
+    },
+    {
+      "id": "a2",
+      "patientId": "3",
+      "patient": "Robert Vance",
+      "type": "Misalignment Warning",
+      "time": "2026-03-01T04:26:38.551Z",
+      "severity": "medium"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m1",
+      "threadId": "1",
+      "sender": "doctor",
+      "text": "Hello John, the new alignment on the telemetry looks stable. How does it feel on stairs?",
+      "time": "2026-03-01T04:26:38.551Z"
+    },
+    {
+      "id": "m2",
+      "threadId": "1",
+      "sender": "patient",
+      "text": "It feels much better. Thank you!",
+      "time": "2026-03-01T04:36:38.551Z"
+    },
+    {
+      "threadId": "1",
+      "sender": "doctor",
+      "text": "hk",
+      "id": "m1772342926812",
+      "time": "2026-03-01T05:28:46.812Z"
+    },
+    {
+      "threadId": "1",
+      "sender": "doctor",
+      "text": "hi",
+      "id": "m1772859851699",
+      "time": "2026-03-07T05:04:11.699Z"
+    },
+    {
+      "threadId": "1",
+      "sender": "patient",
+      "text": "hi",
+      "id": "m1772875234697",
+      "time": "2026-03-07T09:20:34.698Z"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "patientId": "1",
+      "title": "Seated Leg Extensions",
+      "duration": "5 min",
+      "completed": false,
+      "points": 50
+    },
+    {
+      "id": "e2",
+      "patientId": "1",
+      "title": "Weight Shifting",
+      "duration": "10 min",
+      "completed": false,
+      "points": 100
+    }
+  ]
+}
